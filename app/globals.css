@@ -95,12 +95,26 @@ a {
 /* ── HERO ── */
 .hero-outer {
   background: var(--stone);
+  position: relative;
+  background-image: url('/hero.jpeg');
+  background-size: cover;
+  background-position: center 30%;
+  overflow: hidden;
+}
+
+.hero-outer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(28, 26, 23, 0.55);
 }
 
 .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 6rem 2.5rem 5rem;
+  padding: 7rem 2.5rem 6rem;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-single {
@@ -111,7 +125,7 @@ a {
   font-size: 0.78rem;
   font-weight: 500;
   letter-spacing: 0.12em;
-  color: var(--sage);
+  color: rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
   margin-bottom: 1.25rem;
 }
@@ -121,13 +135,13 @@ a {
   font-size: clamp(2rem, 3.5vw, 3rem);
   font-weight: 500;
   line-height: 1.2;
-  color: var(--ink);
+  color: var(--white);
   margin-bottom: 1.5rem;
 }
 
 .hero-lead {
   font-size: 1.05rem;
-  color: var(--ink-soft);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 1.75;
   margin-bottom: 2rem;
 }
@@ -158,16 +172,16 @@ a {
 .btn-secondary {
   display: inline-block;
   background: transparent;
-  color: var(--ink);
+  color: var(--white);
   padding: 0.75rem 1.75rem;
   border-radius: 4px;
   font-size: 0.9rem;
-  border: 1px solid var(--stone-dark);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   transition: border-color 0.2s;
 }
 
 .btn-secondary:hover {
-  border-color: var(--ink-soft);
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
 /* ── HERO PROCESS PANEL ── */
