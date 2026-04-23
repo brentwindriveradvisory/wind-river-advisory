@@ -104,7 +104,7 @@ a {
 }
 
 .hero-single {
-  max-width: 680px;
+  max-width: 100%;
 }
 
 .hero-eyebrow {
@@ -130,7 +130,6 @@ a {
   color: var(--ink-soft);
   line-height: 1.75;
   margin-bottom: 2rem;
-  max-width: 440px;
 }
 
 .hero-actions {
