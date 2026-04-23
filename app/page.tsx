@@ -299,7 +299,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer>
-        <p className="footer-brand">Wind River Advisory</p>
+        <img src="/logo.png" alt="Wind River Advisory" className="footer-logo" />
         <p className="footer-copy">© 2026 Wind River Advisory LLC · Lander, Wyoming</p>
       </footer>
     </>

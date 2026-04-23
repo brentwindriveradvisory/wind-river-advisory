@@ -55,10 +55,13 @@ a {
 }
 
 .nav-brand {
-  font-family: var(--serif);
-  font-size: 1.15rem;
-  font-weight: 500;
-  color: var(--ink);
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 40px;
+  width: auto;
 }
 
 .nav-links {
@@ -821,11 +824,11 @@ footer {
   text-align: center;
 }
 
-.footer-brand {
-  font-family: var(--serif);
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.45);
-  margin-bottom: 0.5rem;
+.footer-logo {
+  height: 48px;
+  width: auto;
+  opacity: 0.45;
+  margin-bottom: 0.75rem;
 }
 
 .footer-copy {
