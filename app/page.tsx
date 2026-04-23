@@ -117,7 +117,7 @@ export default function Home() {
       <section className="how-bg" id="how">
         <div className="section-inner">
           <p className="section-label">The approach</p>
-          <h2 className="section-heading">AI integration that<br />actually sticks</h2>
+          <h2 className="section-heading">AI integration that<br />makes sense for you</h2>
           <p className="section-sub">
             Most organizations know AI is changing how work gets done — but don&apos;t have a dedicated team
             to figure out where it fits or how to make it work. We fill that gap.
