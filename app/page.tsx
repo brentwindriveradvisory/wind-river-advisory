@@ -80,12 +80,12 @@ export default function Home() {
       <div className="hero-outer">
         <div className="hero">
           <div>
-            <p className="hero-eyebrow">AI Advisory &amp; Process Improvement</p>
-            <h1>We bring AI to your workflow — and build what makes it work</h1>
+            <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
+            <h1>We find where your organization can work better — then build what gets you there</h1>
             <p className="hero-lead">
-              Wind River Advisory helps small businesses and nonprofits integrate AI-based tools to simplify
-              workflows and elevate work products — and identifies where technology can eliminate inefficiencies
-              and boost productivity. No generic advice. Solutions built around how you actually operate.
+              Wind River Advisory helps small businesses and nonprofits identify inefficiencies and design
+              tailored tech-based solutions to increase productivity — and advises on how AI-based tools
+              can be integrated into processes to simplify workflows and elevate work products.
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn-primary">Book a discovery call</a>
@@ -228,12 +228,12 @@ export default function Home() {
           </p>
           <div className="build-grid">
             {[
-              { Icon: IconClipboard, title: 'AI workflow integration', body: 'We identify where AI tools fit into your existing processes and design integrations that reduce manual work and improve the quality of what your team produces.' },
-              { Icon: IconArrows, title: 'Process automation', body: 'Automating repetitive tasks using AI — drafting, summarizing, data processing, reporting — so your team can focus on higher-value work.' },
-              { Icon: IconCog, title: 'Custom AI-powered tools', body: 'Purpose-built tools that combine AI capabilities with your specific workflows — from intelligent document generation to automated analysis and decision support.' },
               { Icon: IconChart, title: 'Efficiency analysis', body: 'A structured review of your operations to identify where technology and AI can have the greatest impact on productivity and the quality of your outputs.' },
+              { Icon: IconArrows, title: 'Process redesign', body: 'We map your workflows, identify friction points, and design tailored tech-based solutions that increase productivity and reduce time spent on low-value work.' },
+              { Icon: IconCash, title: 'Ongoing optimization', body: 'We don\'t deploy and disappear. We monitor results, refine solutions, and adapt as your organizational needs evolve.' },
+              { Icon: IconClipboard, title: 'AI workflow integration', body: 'We identify where AI tools fit into your existing processes and design integrations that reduce manual work and improve the quality of what your team produces.' },
               { Icon: IconTrend, title: 'Work product elevation', body: 'Solutions that use AI to improve the consistency and quality of what your team produces — proposals, reports, communications, and more.' },
-              { Icon: IconCash, title: 'Ongoing optimization', body: 'We don\'t deploy and disappear. We monitor results, refine solutions, and adapt as AI capabilities and your organizational needs evolve.' },
+              { Icon: IconCog, title: 'Custom AI-powered tools', body: 'Purpose-built tools that combine AI capabilities with your specific workflows — from intelligent document generation to automated analysis and decision support.' },
             ].map(({ Icon, title, body }) => (
               <div className="build-card" key={title}>
                 <div className="build-icon"><Icon /></div>
@@ -251,10 +251,10 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-text">
               <p className="section-label">About</p>
-              <h2 className="section-heading">Practical AI guidance, not just a report</h2>
-              <p>Wind River Advisory was built on a straightforward belief: the right AI tools, applied to the right processes, can transform how small businesses and nonprofits operate — but only if the implementation is grounded in how your team actually works.</p>
-              <p>Based in Wyoming, we work with founders, owner-operators, and nonprofit leaders to identify where AI and technology can make the biggest difference — then design and implement tailored solutions that deliver measurable improvements in productivity and work quality.</p>
-              <p>Our approach is hands-on and collaborative. We start by understanding your workflows, identify the highest-impact opportunities, and build solutions that fit your organization — not the other way around.</p>
+              <h2 className="section-heading">Practical solutions, not just advice</h2>
+              <p>Wind River Advisory was built on a straightforward belief: most small businesses and nonprofits have real inefficiencies that technology can solve — they just need someone to find them and build the right fix.</p>
+              <p>Based in Wyoming, we work with founders, owner-operators, and nonprofit leaders to identify where process improvements and tech-based solutions can drive the biggest gains in productivity — and where AI tools can simplify workflows and elevate the quality of what their teams produce.</p>
+              <p>Our approach is hands-on and collaborative. We start by understanding how your organization actually works, identify the highest-impact opportunities, and design solutions that fit — not generic tools forced into the wrong context.</p>
               <div className="about-credentials">
                 {[
                   'AI advisory for small businesses, nonprofits, and mission-driven organizations',
