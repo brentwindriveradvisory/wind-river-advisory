@@ -227,45 +227,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="testimonials-bg" id="testimonials">
-        <div className="section-inner">
-          <p className="section-label">Client testimonials</p>
-          <h2 className="section-heading">What clients say</h2>
-          <div className="testimonials-grid">
-
-            <div className="testimonial-card">
-              <p className="testimonial-quote">"PLACEHOLDER — client quote goes here. 2-4 sentences about their experience working with Wind River Advisory and the specific impact it had on their organization."</p>
-              <div className="testimonial-author">
-                <div className="testimonial-author-info">
-                  <p className="testimonial-name">Client Name</p>
-                  <p className="testimonial-role">Title · Organization</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="testimonial-card">
-              <p className="testimonial-quote">"PLACEHOLDER — second client quote goes here. 2-4 sentences about their experience working with Wind River Advisory and the specific impact it had on their organization."</p>
-              <div className="testimonial-author">
-                <div className="testimonial-author-info">
-                  <p className="testimonial-name">Client Name</p>
-                  <p className="testimonial-role">Title · Organization</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          {/* VIDEO PLACEHOLDER */}
-          <div className="testimonial-video">
-            <div className="video-placeholder">
-              <p className="video-placeholder-text">Video testimonial coming soon</p>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
       {/* ABOUT */}
       <section className="about-bg" id="about">
         <div className="section-inner">
