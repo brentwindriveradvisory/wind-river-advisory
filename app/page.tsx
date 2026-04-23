@@ -289,7 +289,7 @@ export default function Home() {
               </div>
               <div className="contact-info-item">
                 <IconEmail />
-                <span>hello@windriveradvisory.com</span>
+                <span>brent@windriveradvisory.com</span>
               </div>
             </div>
             <ContactForm />
