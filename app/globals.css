@@ -344,7 +344,7 @@ section {
 
 .cases-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
 
@@ -527,6 +527,67 @@ section {
   font-size: 0.84rem;
   color: var(--ink-soft);
   line-height: 1.65;
+}
+
+/* ── TESTIMONIALS ── */
+.testimonials-bg {
+  background: var(--stone);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  background: var(--white);
+  border: 1px solid var(--stone-dark);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.testimonial-quote {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.testimonial-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.testimonial-role {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+.testimonial-video {
+  margin-top: 1.5rem;
+}
+
+.video-placeholder {
+  background: var(--white);
+  border: 2px dashed var(--stone-dark);
+  border-radius: 8px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.video-placeholder-text {
+  font-size: 0.875rem;
+  color: var(--ink-muted);
 }
 
 /* ── ABOUT ── */
