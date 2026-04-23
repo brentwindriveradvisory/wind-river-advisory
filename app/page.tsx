@@ -79,7 +79,7 @@ export default function Home() {
       {/* HERO */}
       <div className="hero-outer">
         <div className="hero">
-          <div>
+          <div className="hero-single">
             <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
             <h1>We find where your organization can work better — then build what gets you there</h1>
             <p className="hero-lead">
@@ -89,26 +89,8 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn-primary">Book a discovery call</a>
-              <a href="#work" className="btn-secondary">See our work</a>
+              <a href="#how" className="btn-secondary">See how it works</a>
             </div>
-          </div>
-
-          <div className="hero-visual">
-            {[
-              { n: '1', title: 'Map your workflows', body: 'We learn how your team operates and where time, effort, and quality are being lost.', tag: 'Discovery' },
-              { n: '2', title: 'Identify AI opportunities', body: 'We pinpoint where AI-based tools can simplify work, reduce manual effort, and improve what your team produces.', tag: 'Analysis' },
-              { n: '3', title: 'Design tailored solutions', body: 'We build a custom, tech-based solution matched to your processes — not a generic tool that doesn\'t quite fit.', tag: 'Build' },
-              { n: '4', title: 'Measure the improvement', body: 'We track results, refine the solution, and help you stay ahead as AI continues to evolve.', tag: 'Ongoing' },
-            ].map((step) => (
-              <div className="process-step" key={step.n}>
-                <div className="step-num">{step.n}</div>
-                <div className="step-content">
-                  <h4>{step.title}</h4>
-                  <p>{step.body}</p>
-                </div>
-                <span className="step-tag">{step.tag}</span>
-              </div>
-            ))}
           </div>
         </div>
       </div>
