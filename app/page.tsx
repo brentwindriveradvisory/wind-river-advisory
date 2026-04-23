@@ -80,12 +80,12 @@ export default function Home() {
       <div className="hero-outer">
         <div className="hero">
           <div>
-            <p className="hero-eyebrow">Operational Advisory &amp; Custom Tools</p>
-            <h1>We find what&apos;s costing you — then build what fixes it</h1>
+            <p className="hero-eyebrow">AI Advisory &amp; Process Improvement</p>
+            <h1>We bring AI to your workflow — and build what makes it work</h1>
             <p className="hero-lead">
-              Wind River Advisory works with small businesses and nonprofits to identify hidden inefficiencies,
-              then designs and delivers custom tools that eliminate them. No off-the-shelf software.
-              No generic advice. Solutions built for exactly your problem.
+              Wind River Advisory helps small businesses and nonprofits integrate AI-based tools to simplify
+              workflows and elevate work products — and identifies where technology can eliminate inefficiencies
+              and boost productivity. No generic advice. Solutions built around how you actually operate.
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn-primary">Book a discovery call</a>
@@ -95,10 +95,10 @@ export default function Home() {
 
           <div className="hero-visual">
             {[
-              { n: '1', title: 'Diagnose the inefficiency', body: 'We map your operations and pinpoint exactly where time, money, or revenue is leaking.', tag: 'Discovery' },
-              { n: '2', title: 'Size the opportunity', body: 'We quantify the cost of the problem so you know what fixing it is worth.', tag: 'Analysis' },
-              { n: '3', title: 'Design a tailored tool', body: 'We build a custom solution — purpose-built for your workflow, team, and data.', tag: 'Build' },
-              { n: '4', title: 'Measure the gain', body: 'We track results and refine the tool as your business evolves.', tag: 'Ongoing' },
+              { n: '1', title: 'Map your workflows', body: 'We learn how your team operates and where time, effort, and quality are being lost.', tag: 'Discovery' },
+              { n: '2', title: 'Identify AI opportunities', body: 'We pinpoint where AI-based tools can simplify work, reduce manual effort, and improve what your team produces.', tag: 'Analysis' },
+              { n: '3', title: 'Design tailored solutions', body: 'We build a custom, tech-based solution matched to your processes — not a generic tool that doesn\'t quite fit.', tag: 'Build' },
+              { n: '4', title: 'Measure the improvement', body: 'We track results, refine the solution, and help you stay ahead as AI continues to evolve.', tag: 'Ongoing' },
             ].map((step) => (
               <div className="process-step" key={step.n}>
                 <div className="step-num">{step.n}</div>
@@ -117,17 +117,17 @@ export default function Home() {
       <section className="how-bg" id="how">
         <div className="section-inner">
           <p className="section-label">The approach</p>
-          <h2 className="section-heading">Operational improvement<br />you can measure</h2>
+          <h2 className="section-heading">AI integration that<br />actually sticks</h2>
           <p className="section-sub">
-            Most small businesses have real operational problems but no dedicated team to solve them.
-            We fill that gap — combining strategic diagnosis with hands-on tool development.
+            Most organizations know AI is changing how work gets done — but don&apos;t have a dedicated team
+            to figure out where it fits or how to make it work. We fill that gap.
           </p>
           <div className="how-grid">
             {[
-              { n: '01', title: 'Operations audit', body: 'We talk to your team, observe your workflows, and review your data to build a clear picture of where friction lives and what it\'s costing you.' },
-              { n: '02', title: 'Problem framing', body: 'We translate operational friction into a specific, solvable problem — and estimate the revenue or time impact of solving it.' },
-              { n: '03', title: 'Custom tool design', body: 'We design and build the right tool for your situation — whether that\'s a tracking system, dashboard, workflow, or process automation.' },
-              { n: '04', title: 'Deployment & iteration', body: 'We roll it out with your team, measure impact, and continue refining as your needs evolve.' },
+              { n: '01', title: 'Workflow discovery', body: 'We talk to your team and map your processes to understand how work actually gets done — and where friction, inefficiency, or quality gaps exist.' },
+              { n: '02', title: 'Opportunity identification', body: 'We pinpoint where AI-based tools can make the biggest difference — simplifying workflows, reducing manual work, and elevating the quality of what your team produces.' },
+              { n: '03', title: 'Tailored solution design', body: 'We design and implement the right tech-based solution for your situation — built around how you actually operate, not forced into a generic template.' },
+              { n: '04', title: 'Deployment & refinement', body: 'We roll out the solution with your team, measure its impact, and continue refining as your needs and the technology evolve.' },
             ].map((step) => (
               <div className="how-step" key={step.n}>
                 <div className="how-step-num">{step.n}</div>
@@ -221,19 +221,19 @@ export default function Home() {
       <section className="build-bg" id="tools">
         <div className="section-inner">
           <p className="section-label">What we build</p>
-          <h2 className="section-heading">Tools matched to the problem,<br />not the other way around</h2>
+          <h2 className="section-heading">Solutions matched to your work,<br />not the other way around</h2>
           <p className="section-sub">
-            We don&apos;t arrive with a preferred technology. We diagnose first, then build whatever fits —
-            from lightweight spreadsheet tools to full custom applications.
+            We don&apos;t arrive with a preferred tool or technology. We understand your workflows first,
+            then design whatever fits — from lightweight AI integrations to fully custom applications.
           </p>
           <div className="build-grid">
             {[
-              { Icon: IconClipboard, title: 'Tracking systems', body: 'Attendance, inventory, time, utilization — custom-built trackers that capture the right data and surface it in a way your team can actually act on.' },
-              { Icon: IconCash, title: 'Reconciliation tools', body: 'Systems that connect attendance, billing, and payment data — eliminating manual cross-checking and ensuring nothing falls through the cracks.' },
-              { Icon: IconChart, title: 'Operations dashboards', body: 'Real-time visibility into the metrics that drive your business — capacity, revenue, utilization, and more — in a single place you\'ll actually look at.' },
-              { Icon: IconArrows, title: 'Workflow automation', body: 'Automating the repetitive tasks your team does manually — invoicing, reporting, reminders, data entry — so they can focus on higher-value work.' },
-              { Icon: IconTrend, title: 'Revenue analysis tools', body: 'Tools that connect operational data to revenue outcomes — helping you understand what drives growth and where you\'re leaving money behind.' },
-              { Icon: IconCog, title: 'Custom reporting', body: 'Automated reports tailored to what you actually need to see — pulling from your existing data sources and delivered on your schedule.' },
+              { Icon: IconClipboard, title: 'AI workflow integration', body: 'We identify where AI tools fit into your existing processes and design integrations that reduce manual work and improve the quality of what your team produces.' },
+              { Icon: IconArrows, title: 'Process automation', body: 'Automating repetitive tasks using AI — drafting, summarizing, data processing, reporting — so your team can focus on higher-value work.' },
+              { Icon: IconCog, title: 'Custom AI-powered tools', body: 'Purpose-built tools that combine AI capabilities with your specific workflows — from intelligent document generation to automated analysis and decision support.' },
+              { Icon: IconChart, title: 'Efficiency analysis', body: 'A structured review of your operations to identify where technology and AI can have the greatest impact on productivity and the quality of your outputs.' },
+              { Icon: IconTrend, title: 'Work product elevation', body: 'Solutions that use AI to improve the consistency and quality of what your team produces — proposals, reports, communications, and more.' },
+              { Icon: IconCash, title: 'Ongoing optimization', body: 'We don\'t deploy and disappear. We monitor results, refine solutions, and adapt as AI capabilities and your organizational needs evolve.' },
             ].map(({ Icon, title, body }) => (
               <div className="build-card" key={title}>
                 <div className="build-icon"><Icon /></div>
@@ -251,14 +251,14 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-text">
               <p className="section-label">About</p>
-              <h2 className="section-heading">Strategy and execution, not just advice</h2>
-              <p>Wind River Advisory was built around a simple observation: most small business and nonprofit consultants identify problems and hand you a report. We identify problems and then build the thing that fixes them.</p>
-              <p>Based in Wyoming, we work with founders, owner-operators, and nonprofit leaders across industries — combining operational analysis with hands-on tool development to deliver improvements you can measure, not just recommendations you can file away.</p>
-              <p>Our engagements are collaborative and practical. We work closely with your team to understand your actual workflows, build tools that fit how you operate, and stick around to make sure they deliver.</p>
+              <h2 className="section-heading">Practical AI guidance, not just a report</h2>
+              <p>Wind River Advisory was built on a straightforward belief: the right AI tools, applied to the right processes, can transform how small businesses and nonprofits operate — but only if the implementation is grounded in how your team actually works.</p>
+              <p>Based in Wyoming, we work with founders, owner-operators, and nonprofit leaders to identify where AI and technology can make the biggest difference — then design and implement tailored solutions that deliver measurable improvements in productivity and work quality.</p>
+              <p>Our approach is hands-on and collaborative. We start by understanding your workflows, identify the highest-impact opportunities, and build solutions that fit your organization — not the other way around.</p>
               <div className="about-credentials">
                 {[
-                  'Operational diagnosis across service, fitness, education, trades businesses, and nonprofits',
-                  'Custom tool development from lightweight spreadsheets to full applications',
+                  'AI advisory for small businesses, nonprofits, and mission-driven organizations',
+                  'Custom tech solutions from lightweight automations to full AI-powered tools',
                   'Based in Lander, WY — available remotely worldwide',
                 ].map((text) => (
                   <div className="credential-item" key={text}>
@@ -295,11 +295,11 @@ export default function Home() {
           <div className="contact-grid">
             <div className="contact-left">
               <p className="section-label">Get in touch</p>
-              <h2 className="contact-heading">Tell us where things feel broken</h2>
+              <h2 className="contact-heading">Tell us how your team works</h2>
               <p>
-                The first conversation is free. We&apos;ll listen to how your business operates, identify
-                where we can help, and tell you honestly whether we&apos;re the right fit.
-                No pitch, no pressure.
+                The first conversation is free. We&apos;ll listen to how your organization operates, explore
+                where AI and technology could make the biggest difference, and tell you honestly whether
+                we&apos;re the right fit. No pitch, no pressure.
               </p>
               <div className="contact-info-item">
                 <IconPin />
