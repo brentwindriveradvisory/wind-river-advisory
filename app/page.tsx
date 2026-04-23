@@ -83,7 +83,7 @@ export default function Home() {
             <p className="hero-eyebrow">Operational Advisory &amp; Custom Tools</p>
             <h1>We find what&apos;s costing you — then build what fixes it</h1>
             <p className="hero-lead">
-              Wind River Advisory works with small businesses to identify hidden inefficiencies,
+              Wind River Advisory works with small businesses and nonprofits to identify hidden inefficiencies,
               then designs and delivers custom tools that eliminate them. No off-the-shelf software.
               No generic advice. Solutions built for exactly your problem.
             </p>
@@ -252,14 +252,14 @@ export default function Home() {
             <div className="about-text">
               <p className="section-label">About</p>
               <h2 className="section-heading">Strategy and execution, not just advice</h2>
-              <p>Wind River Advisory was built around a simple observation: most small business consultants identify problems and hand you a report. We identify problems and then build the thing that fixes them.</p>
-              <p>Based in Wyoming, we work with founders and owner-operators across industries — combining operational analysis with hands-on tool development to deliver improvements you can measure, not just recommendations you can file away.</p>
+              <p>Wind River Advisory was built around a simple observation: most small business and nonprofit consultants identify problems and hand you a report. We identify problems and then build the thing that fixes them.</p>
+              <p>Based in Wyoming, we work with founders, owner-operators, and nonprofit leaders across industries — combining operational analysis with hands-on tool development to deliver improvements you can measure, not just recommendations you can file away.</p>
               <p>Our engagements are collaborative and practical. We work closely with your team to understand your actual workflows, build tools that fit how you operate, and stick around to make sure they deliver.</p>
               <div className="about-credentials">
                 {[
-                  'Operational diagnosis across service, fitness, education, and trades businesses',
+                  'Operational diagnosis across service, fitness, education, trades businesses, and nonprofits',
                   'Custom tool development from lightweight spreadsheets to full applications',
-                  'Based in Lander, WY — available remotely nationwide',
+                  'Based in Lander, WY — available remotely worldwide',
                 ].map((text) => (
                   <div className="credential-item" key={text}>
                     <div className="credential-dot" />
@@ -303,7 +303,7 @@ export default function Home() {
               </p>
               <div className="contact-info-item">
                 <IconPin />
-                <span>Lander, Wyoming — serving clients nationwide</span>
+                <span>Lander, Wyoming — serving clients worldwide</span>
               </div>
               <div className="contact-info-item">
                 <IconEmail />
