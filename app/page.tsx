@@ -280,8 +280,8 @@ export default function Home() {
               <h2 className="contact-heading">Tell us how your team works</h2>
               <p>
                 The first conversation is free. We&apos;ll listen to how your organization operates, explore
-                where AI and technology could make the biggest difference, and tell you honestly whether
-                we&apos;re the right fit. No pitch, no pressure.
+                where AI and technology could make the biggest difference, and tell you whether
+                we&apos;re the right fit.
               </p>
               <div className="contact-info-item">
                 <IconPin />
