@@ -81,7 +81,7 @@ export default function Home() {
         <div className="hero">
           <div className="hero-single">
             <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
-            <h1>We find where your organization can work better — then build what gets you there</h1>
+            <h1>Custom tools and AI solutions, built for your operation</h1>
             <p className="hero-lead">
               Wind River Advisory helps small businesses and nonprofits identify inefficiencies and design
               tailored tech-based solutions to increase productivity — and advises on how AI-based tools
