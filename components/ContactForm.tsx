@@ -65,7 +65,7 @@ export default function ContactForm() {
         <input id="businessType" name="businessType" type="text" placeholder="e.g. fitness studio, tutoring company" />
       </div>
       <div className="form-group">
-        <label htmlFor="message">Where&apos;s the friction? What feels broken?</label>
+        <label htmlFor="message">What would you like to work on?</label>
         <textarea
           id="message"
           name="message"
