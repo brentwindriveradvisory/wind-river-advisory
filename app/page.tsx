@@ -101,15 +101,15 @@ export default function Home() {
           <p className="section-label">The approach</p>
           <h2 className="section-heading">AI integration that<br />makes sense for you</h2>
           <p className="section-sub">
-            Most organizations know AI is changing how work gets done — but don&apos;t have a dedicated team
+            Most organizations know AI is changing how work gets done, but don&apos;t have a dedicated team
             to figure out where it fits or how to make it work. We fill that gap.
           </p>
           <div className="how-grid">
             {[
               { n: '01', title: 'Workflow discovery', body: 'We talk to your team and map your processes to understand how work actually gets done — and where friction, inefficiency, or quality gaps exist.' },
               { n: '02', title: 'Opportunity identification', body: 'We pinpoint where AI-based tools can make the biggest difference — simplifying workflows, reducing manual work, and elevating the quality of what your team produces.' },
-              { n: '03', title: 'Tailored solution design', body: 'We design and implement the right tech-based solution for your situation — built around how you actually operate, not forced into a generic template.' },
-              { n: '04', title: 'Deployment & refinement', body: 'We roll out the solution with your team, measure its impact, and continue refining as your needs and the technology evolve.' },
+              { n: '03', title: 'Tailored solution design', body: 'We design and implement the right tech-based solution for your situation, built around how you actually operate, not forced into a generic template.' },
+              { n: '04', title: 'Deployment & refinement', body: 'We roll out the solution with your team, measure its impact, and continue refining as your needs evolve.' },
             ].map((step) => (
               <div className="how-step" key={step.n}>
                 <div className="how-step-num">{step.n}</div>
@@ -133,7 +133,7 @@ export default function Home() {
 
             <div className="case-card">
               <div className="case-header">
-                <span className="case-industry">Health &amp; Fitness</span>
+                <span className="case-industry">Cardio Tennis</span>
                 <h3>Attendance tracking to unlock revenue growth</h3>
                 <p className="case-sub">Tennis cardio instruction company</p>
               </div>
@@ -166,7 +166,7 @@ export default function Home() {
             <div className="case-card">
               <div className="case-header">
                 <span className="case-industry">Education Services</span>
-                <h3>Attendance &amp; payment reconciliation in one system</h3>
+                <h3>Attendance and payment reconciliation in one system</h3>
                 <p className="case-sub">Education services company</p>
               </div>
               <div className="case-body">
