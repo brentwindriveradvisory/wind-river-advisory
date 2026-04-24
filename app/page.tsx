@@ -147,7 +147,7 @@ export default function Home() {
                   <IconClipboard />
                   <div className="case-tool-text">
                     <h5>Attendance tracking &amp; revenue dashboard</h5>
-                    <p>A custom tool that logs attendance by session, surfaces trends over time, and flags under-utilized capacity — giving the owner clear data to drive scheduling and pricing decisions.</p>
+                    <p>A custom tool that logs attendance by session, surfaces trends over time, and flags under-utilized capacity, giving the owner clear data to drive scheduling and pricing decisions.</p>
                   </div>
                 </div>
                 <div className="case-outcome">
@@ -179,7 +179,7 @@ export default function Home() {
                   <IconCash />
                   <div className="case-tool-text">
                     <h5>Integrated attendance + payment reconciliation tool</h5>
-                    <p>A unified system that connects attendance records directly to billing, auto-flags discrepancies, and generates a reconciliation report — eliminating the manual cross-check entirely.</p>
+                    <p>A unified system that connects attendance records directly to billing, auto-flags discrepancies, and generates a reconciliation report, eliminating the manual cross-check entirely.</p>
                   </div>
                 </div>
                 <div className="case-outcome">
@@ -206,7 +206,7 @@ export default function Home() {
           <h2 className="section-heading">Solutions matched to your work,<br />not the other way around</h2>
           <p className="section-sub">
             We don&apos;t arrive with a preferred tool or technology. We understand your workflows first,
-            then design whatever fits — from lightweight AI integrations to fully custom applications.
+            then design whatever fits, from lightweight AI integrations to fully custom applications.
           </p>
           <div className="build-grid">
             {[
@@ -214,8 +214,8 @@ export default function Home() {
               { Icon: IconArrows, title: 'Process redesign', body: 'We map your workflows, identify friction points, and design tailored tech-based solutions that increase productivity and reduce time spent on low-value work.' },
               { Icon: IconCash, title: 'Ongoing optimization', body: 'We don\'t deploy and disappear. We monitor results, refine solutions, and adapt as your organizational needs evolve.' },
               { Icon: IconClipboard, title: 'AI workflow integration', body: 'We identify where AI tools fit into your existing processes and design integrations that reduce manual work and improve the quality of what your team produces.' },
-              { Icon: IconTrend, title: 'Work product elevation', body: 'Solutions that use AI to improve the consistency and quality of what your team produces — proposals, reports, communications, and more.' },
-              { Icon: IconCog, title: 'Custom AI-powered tools', body: 'Purpose-built tools that combine AI capabilities with your specific workflows — from intelligent document generation to automated analysis and decision support.' },
+              { Icon: IconTrend, title: 'Work product elevation', body: 'Solutions that use AI to improve the consistency and quality of what your team produces: proposals, reports, communications, and more.' },
+              { Icon: IconCog, title: 'Custom AI-powered tools', body: 'Purpose-built tools that combine AI capabilities with your specific workflows, from intelligent document generation to automated analysis and decision support.' },
             ].map(({ Icon, title, body }) => (
               <div className="build-card" key={title}>
                 <div className="build-icon"><Icon /></div>
