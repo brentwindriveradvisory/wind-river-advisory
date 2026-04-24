@@ -235,8 +235,7 @@ export default function Home() {
             <div className="about-text">
               <p className="section-label">About</p>
               <h2 className="section-heading">Practical solutions, not just advice</h2>
-              <p>Wind River Advisory was built on a straightforward belief: most small businesses and nonprofits have real inefficiencies that technology can solve; they just need someone to find them and build the right fix.</p>
-              <p>Based in Wyoming, we work with founders, owner-operators, and nonprofit leaders to identify where process improvements and tech-based solutions can drive the biggest gains in productivity, and where AI tools can simplify workflows and elevate the quality of what their teams produce.</p>
+              <p>We work with small business and nonprofit leaders to identify where process improvements and tech-based solutions can drive the biggest gains in productivity, and where AI tools can simplify workflows and elevate the quality of what their teams produce.</p>
               <p>Our approach is hands-on and collaborative. We start by understanding how your organization actually works, identify the highest-impact opportunities, and design solutions that fit, not generic tools forced into the wrong context.</p>
               <div className="about-credentials">
                 {[
