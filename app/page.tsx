@@ -136,7 +136,7 @@ export default function Home() {
               <div className="case-header">
                 <span className="case-industry">Cardio Tennis</span>
                 <h3>Attendance tracking to unlock revenue growth</h3>
-                <p className="case-sub">Tennis cardio instruction company</p>
+                <p className="case-sub">Cardio tennis instruction company</p>
               </div>
               <div className="case-body">
                 <div className="case-problem">
