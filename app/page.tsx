@@ -84,7 +84,7 @@ export default function Home() {
             <h1>Custom tools and AI solutions, built for your operation</h1>
             <p className="hero-lead">
               Wind River Advisory helps small businesses and nonprofits identify inefficiencies and design
-              tailored tech-based solutions to increase productivity — and advises on how AI-based tools
+              tailored tech-based solutions to increase productivity, and advises on how AI-based tools
               can be integrated into processes to simplify workflows and elevate work products.
             </p>
             <div className="hero-actions">
@@ -99,10 +99,11 @@ export default function Home() {
       <section className="how-bg" id="how">
         <div className="section-inner">
           <p className="section-label">The approach</p>
-          <h2 className="section-heading">AI integration that<br />makes sense for you</h2>
+          <h2 className="section-heading">From diagnosis<br />to delivery</h2>
           <p className="section-sub">
-            Most organizations know AI is changing how work gets done, but don&apos;t have a dedicated team
-            to figure out where it fits or how to make it work. We fill that gap.
+            Whether the goal is identifying operational inefficiencies, integrating AI tools, or both,
+            we follow the same practical process: understand how your organization works, identify the
+            highest-impact opportunities, and build solutions that fit.
           </p>
           <div className="how-grid">
             {[
