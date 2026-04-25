@@ -9,7 +9,6 @@ export default function Nav() {
       <ul className="nav-links">
         <li><a href="#how">How it works</a></li>
         <li><a href="#work">Our work</a></li>
-        <li><a href="#tools">What we build</a></li>
         <li><a href="#about">About</a></li>
       </ul>
       <a href="#contact" className="nav-cta">Start a conversation</a>

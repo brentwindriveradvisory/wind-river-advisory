@@ -109,7 +109,7 @@ export default function Home() {
               { n: '01', title: 'Workflow mapping', body: 'We talk to your team and map your processes to understand how work actually gets done and where inefficiency or quality gaps exist.' },
               { n: '02', title: 'Opportunity identification', body: 'We pinpoint where AI-based tools can make the biggest difference — simplifying workflows, reducing manual work, and elevating the quality of what your team produces.' },
               { n: '03', title: 'Tailored solution design', body: 'We design a tech-based solution that fits seamlessly with how you operate.' },
-              { n: '04', title: 'Deployment & refinement', body: 'We roll out the solution with your team, measure its impact, and continue refining as your needs evolve.' },
+              { n: '04', title: 'Deployment, training & growth', body: 'We roll out your solution, train your team to own it, and stay engaged to refine what we\'ve built and identify the next opportunity as your business evolves.' },
             ].map((step) => (
               <div className="how-step" key={step.n}>
                 <div className="how-step-num">{step.n}</div>
@@ -195,34 +195,6 @@ export default function Home() {
               </div>
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT WE BUILD */}
-      <section className="build-bg" id="tools">
-        <div className="section-inner">
-          <p className="section-label">What we build</p>
-          <h2 className="section-heading">Solutions matched to your work,<br />not the other way around</h2>
-          <p className="section-sub">
-            We don&apos;t arrive with a preferred tool or technology. We understand your workflows first,
-            then design whatever fits, from lightweight AI integrations to fully custom applications.
-          </p>
-          <div className="build-grid">
-            {[
-              { Icon: IconChart, title: 'Efficiency analysis', body: 'A structured review of your operations to identify where technology and AI can have the greatest impact on productivity and the quality of your outputs.' },
-              { Icon: IconArrows, title: 'Process redesign', body: 'We map your workflows, identify friction points, and design tailored tech-based solutions that increase productivity and reduce time spent on low-value work.' },
-              { Icon: IconCash, title: 'Ongoing optimization', body: 'We don\'t deploy and disappear. We monitor results, refine solutions, and adapt as your organizational needs evolve.' },
-              { Icon: IconClipboard, title: 'AI workflow integration', body: 'We identify where AI tools fit into your existing processes and design integrations that reduce manual work and improve the quality of what your team produces.' },
-              { Icon: IconTrend, title: 'Work product elevation', body: 'Solutions that use AI to improve the consistency and quality of what your team produces: proposals, reports, communications, and more.' },
-              { Icon: IconCog, title: 'Custom AI-powered tools', body: 'Purpose-built tools that combine AI capabilities with your specific workflows, from intelligent document generation to automated analysis and decision support.' },
-            ].map(({ Icon, title, body }) => (
-              <div className="build-card" key={title}>
-                <div className="build-icon"><Icon /></div>
-                <h3>{title}</h3>
-                <p>{body}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
