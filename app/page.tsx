@@ -83,9 +83,8 @@ export default function Home() {
             <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
             <h1>Custom tools and AI solutions, built for your operation</h1>
             <p className="hero-lead">
-              Wind River Advisory helps small businesses and nonprofits identify inefficiencies and design
-              tailored tech-based solutions to increase productivity, and advises on how AI-based tools
-              can be integrated into processes to simplify workflows and elevate work products.
+              Wind River Advisory partners with small businesses and nonprofits to work smarter, move faster,
+              and produce higher-quality results using tailored technology and AI solutions.
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn-primary">Book a discovery call</a>
@@ -107,9 +106,9 @@ export default function Home() {
           </p>
           <div className="how-grid">
             {[
-              { n: '01', title: 'Workflow discovery', body: 'We talk to your team and map your processes to understand how work actually gets done — and where friction, inefficiency, or quality gaps exist.' },
+              { n: '01', title: 'Workflow mapping', body: 'We talk to your team and map your processes to understand how work actually gets done and where inefficiency or quality gaps exist.' },
               { n: '02', title: 'Opportunity identification', body: 'We pinpoint where AI-based tools can make the biggest difference — simplifying workflows, reducing manual work, and elevating the quality of what your team produces.' },
-              { n: '03', title: 'Tailored solution design', body: 'We design and implement the right tech-based solution for your situation, built around how you actually operate, not forced into a generic template.' },
+              { n: '03', title: 'Tailored solution design', body: 'We design a tech-based solution that fits seamlessly with how you operate.' },
               { n: '04', title: 'Deployment & refinement', body: 'We roll out the solution with your team, measure its impact, and continue refining as your needs evolve.' },
             ].map((step) => (
               <div className="how-step" key={step.n}>
