@@ -150,16 +150,6 @@ export default function Home() {
                     <p>A custom tool that logs attendance by session, surfaces trends over time, and flags under-utilized capacity, giving the owner clear data to drive scheduling and pricing decisions.</p>
                   </div>
                 </div>
-                <div className="case-outcome">
-                  <div className="outcome-stat">
-                    <div className="outcome-num">Visibility</div>
-                    <div className="outcome-label">Into session-level attendance for the first time</div>
-                  </div>
-                  <div className="outcome-stat">
-                    <div className="outcome-num">Actionable</div>
-                    <div className="outcome-label">Data to optimize scheduling and increase revenue</div>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -180,16 +170,6 @@ export default function Home() {
                   <div className="case-tool-text">
                     <h5>Integrated attendance + payment reconciliation tool</h5>
                     <p>A unified system that connects attendance records directly to billing, auto-flags discrepancies, and generates a reconciliation report, eliminating the manual cross-check entirely.</p>
-                  </div>
-                </div>
-                <div className="case-outcome">
-                  <div className="outcome-stat">
-                    <div className="outcome-num">Hours</div>
-                    <div className="outcome-label">Saved per billing cycle on manual reconciliation</div>
-                  </div>
-                  <div className="outcome-stat">
-                    <div className="outcome-num">Zero</div>
-                    <div className="outcome-label">Missed payments slipping through the cracks</div>
                   </div>
                 </div>
               </div>
