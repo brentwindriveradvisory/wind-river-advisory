@@ -228,11 +228,14 @@ export default function Home() {
           <div className="contact-grid">
             <div className="contact-left">
               <p className="section-label">Get in touch</p>
-              <h2 className="contact-heading">Tell us how your team works</h2>
+              <h2 className="contact-heading">Let&apos;s start with a conversation</h2>
               <p>
-                The first conversation is free. We&apos;ll listen to how your organization operates, explore
-                where AI and technology could make the biggest difference, and tell you whether
-                we&apos;re the right fit.
+                Book a free 30-minute call — by phone, Zoom, or Google Meet, whatever works best for you.
+              </p>
+              <p>
+                The goal is simple: understand what you&apos;re working on, explore whether Wind River Advisory
+                is the right fit, and give you a clear sense of what working together would look like.
+                You don&apos;t need to have everything figured out before we talk.
               </p>
               <div className="contact-info-item">
                 <IconPin />
