@@ -69,7 +69,7 @@ export default function ContactForm() {
         <textarea
           id="message"
           name="message"
-          placeholder="Describe the operational challenge you're dealing with..."
+          placeholder="Tell us what you're working on..."
           required
         />
       </div>
