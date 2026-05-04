@@ -392,11 +392,8 @@ section {
   background: var(--white);
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: start;
+.about-text {
+  max-width: 680px;
 }
 
 .about-text p {

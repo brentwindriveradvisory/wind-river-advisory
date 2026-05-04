@@ -153,7 +153,7 @@ export default function Home() {
       {/* ABOUT */}
       <section className="about-bg" id="about">
         <div className="section-inner">
-          <div className="about-grid">
+          <div>
             <div className="about-text">
               <p className="section-label">About</p>
               <h2 className="section-heading">Practical solutions, not just advice</h2>
@@ -174,9 +174,6 @@ export default function Home() {
                   </div>
                 ))}
               </div>
-            </div>
-            <div>
-              <div className="about-photo-placeholder" />
             </div>
           </div>
         </div>
