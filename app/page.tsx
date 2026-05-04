@@ -35,32 +35,20 @@ export default function Home() {
       <Nav />
 
       {/* HERO */}
-      <div style={{ background: 'var(--warm)' }}>
-        <div className="hero-outer">
-          {/* Left column */}
-          <div className="hero-left">
-            <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
-            <h1>
-              Custom tools and AI solutions,{' '}
-              <em>built for your operation</em>
-            </h1>
-            <p className="hero-lead">
-              Wind River Advisory partners with small businesses and nonprofits to work smarter, move faster,
-              and produce higher-quality results using tailored technology and AI solutions.
-            </p>
-            <div className="hero-actions">
-              <a href="#contact" className="btn-primary">Book a discovery call</a>
-              <a href="#how" className="btn-secondary">See how it works</a>
-            </div>
-          </div>
-
-          {/* Right column — mountain photo */}
-          <div className="hero-right">
-            <img
-              src="/hero.jpeg"
-              alt="Wind River Range, Wyoming"
-              className="hero-photo"
-            />
+      <div className="hero-outer">
+        <div className="hero-left">
+          <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
+          <h1>
+            Custom tools and AI solutions,{' '}
+            <em>built for your operation</em>
+          </h1>
+          <p className="hero-lead">
+            Wind River Advisory partners with small businesses and nonprofits to work smarter, move faster,
+            and produce higher-quality results using tailored technology and AI solutions.
+          </p>
+          <div className="hero-actions">
+            <a href="#contact" className="btn-primary">Book a discovery call</a>
+            <a href="#how" className="btn-secondary">See how it works</a>
           </div>
         </div>
       </div>
