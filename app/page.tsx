@@ -54,33 +54,13 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right column — decorative mountain+river mark */}
+          {/* Right column — mountain photo */}
           <div className="hero-right">
-            <svg
-              width="100%"
-              viewBox="0 0 360 200"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              style={{ maxWidth: 420 }}
-            >
-              <polyline
-                points="0,156 84,36 132,102 180,18 228,102 276,60 360,156"
-                stroke="#1a6b5a"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                opacity="0.18"
-              />
-              <path
-                d="M0,180 Q90,165 180,180 Q270,195 360,180"
-                stroke="#1a6b5a"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                fill="none"
-                opacity="0.4"
-              />
-            </svg>
+            <img
+              src="/hero.jpeg"
+              alt="Wind River Range, Wyoming"
+              className="hero-photo"
+            />
           </div>
         </div>
       </div>
