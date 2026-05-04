@@ -20,7 +20,6 @@ export default function ContactForm() {
           firstName: data.get('firstName'),
           lastName: data.get('lastName'),
           email: data.get('email'),
-          businessType: data.get('businessType'),
           message: data.get('message'),
         }),
       })
@@ -37,7 +36,7 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="contact-form form-success">
+      <div className="form-success">
         <h3>Message received.</h3>
         <p>We&apos;ll be in touch within one business day to schedule a discovery call.</p>
       </div>
@@ -61,16 +60,11 @@ export default function ContactForm() {
         <input id="email" name="email" type="email" placeholder="jane@yourbusiness.com" required />
       </div>
       <div className="form-group">
-        <label htmlFor="businessType">Business type</label>
-        <input id="businessType" name="businessType" type="text" placeholder="e.g. fitness studio, tutoring company" />
-      </div>
-      <div className="form-group">
         <label htmlFor="message">What would you like to work on?</label>
         <textarea
           id="message"
           name="message"
           placeholder="Tell us what you're working on..."
-          required
         />
       </div>
       <button type="submit" className="btn-submit" disabled={loading}>
