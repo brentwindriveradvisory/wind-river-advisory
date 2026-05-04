@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <a href="/" className="nav-brand">
-        <img src="/logo.png" alt="Wind River Advisory" className="nav-logo" />
+        <img src="/logo-light.svg" alt="Wind River Advisory" className="nav-logo" />
       </a>
       <ul className="nav-links">
         <li><a href="#how">How it works</a></li>

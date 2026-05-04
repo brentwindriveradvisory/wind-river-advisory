@@ -51,7 +51,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 130px;
+  height: 72px;
 }
 
 .nav-brand {
@@ -60,7 +60,7 @@ a {
 }
 
 .nav-logo {
-  height: 120px;
+  height: 48px;
   width: auto;
 }
 
@@ -825,7 +825,7 @@ footer {
 }
 
 .footer-logo {
-  height: 90px;
+  height: 80px;
   width: auto;
   margin-bottom: 0.75rem;
 }

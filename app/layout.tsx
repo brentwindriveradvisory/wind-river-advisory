@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Wind River Advisory — Custom Tools & AI Solutions',
   description: 'Wind River Advisory helps small businesses and nonprofits identify inefficiencies and integrate AI-based tools to increase productivity.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/mark-only-green.svg',
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
