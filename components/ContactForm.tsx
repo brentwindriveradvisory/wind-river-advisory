@@ -60,7 +60,7 @@ export default function ContactForm() {
         <input id="email" name="email" type="email" placeholder="jane@yourbusiness.com" required />
       </div>
       <div className="form-group">
-        <label htmlFor="message">What would you like to work on?</label>
+        <label htmlFor="message">What would you like to work on? <span style={{ opacity: 0.5, fontWeight: 300, textTransform: 'none', letterSpacing: 0 }}>(optional)</span></label>
         <textarea
           id="message"
           name="message"
