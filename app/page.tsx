@@ -126,7 +126,7 @@ export default function Home() {
               <p className="section-label">About</p>
               <h2 className="section-heading">Practical solutions, not just advice</h2>
               <p>We work with small business and nonprofit leaders to identify where process improvements and tech-based solutions can drive the biggest gains in productivity, and where AI tools can simplify workflows and elevate the quality of what their teams produce.</p>
-              <p>Our approach is hands-on and collaborative. We start by understanding how your organization actually works, identify the highest-impact opportunities, and design solutions that fit, not generic tools forced into the wrong context.</p>
+              <p>Our approach is hands-on and collaborative. We start by understanding how your organization actually works, identify the highest-impact opportunities, and design solutions that fit.</p>
               <div className="about-table">
                 <p className="about-table-heading">How we work</p>
                 {[
