@@ -127,14 +127,7 @@ export default function Home() {
               <h2 className="section-heading">Practical solutions, not just advice</h2>
               <p>We work with small business and nonprofit leaders to identify where process improvements and tech-based solutions can drive the biggest gains in productivity, and where AI tools can simplify workflows and elevate the quality of what their teams produce.</p>
               <p>Our approach is hands-on and collaborative. We start by understanding how your organization actually works, identify the highest-impact opportunities, and design solutions that fit.</p>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1.25rem', marginBottom: '1.25rem' }}>
-                <img
-                  src="/brent-edelman.jpg"
-                  alt="Brent Edelman"
-                  style={{ width: 80, height: 110, borderRadius: '50%', objectFit: 'cover', objectPosition: '30% 20%', flexShrink: 0, marginTop: 4, filter: 'grayscale(100%)', background: '#e8e4e0' }}
-                />
-                <p style={{ marginBottom: 0 }}>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for leading labs and developing a firsthand understanding of what these tools can and can&apos;t do. He brings that knowledge, along with two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific, to building practical, custom AI tools for small businesses and nonprofits around the world. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
-              </div>
+              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for leading labs and developing a firsthand understanding of what these tools can and can&apos;t do. He brings that knowledge, along with two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific, to building practical, custom AI tools for small businesses and nonprofits around the world. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
               <div className="about-table">
                 <p className="about-table-heading">How we work</p>
                 {[
