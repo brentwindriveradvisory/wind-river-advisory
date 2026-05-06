@@ -131,7 +131,6 @@ export default function Home() {
                 <p className="about-table-heading">How we work</p>
                 {[
                   { label: 'Engagement style', value: 'Project or retainer' },
-                  { label: 'Client size', value: '1–50 employees' },
                   { label: 'Format', value: 'Remote or in-person' },
                   { label: 'Typical engagement', value: '1–3 months' },
                   { label: 'First step', value: 'Free 30-min discovery call' },
