@@ -131,7 +131,7 @@ export default function Home() {
                 <img
                   src="/brent-edelman.jpg"
                   alt="Brent Edelman"
-                  style={{ width: 80, height: 96, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%', flexShrink: 0, marginTop: 4 }}
+                  style={{ width: 80, height: 110, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%', flexShrink: 0, marginTop: 4 }}
                 />
                 <p style={{ marginBottom: 0 }}>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for leading labs and developing a firsthand understanding of what these tools can and can&apos;t do. He brings that knowledge, along with two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific, to building practical, custom AI tools for small businesses and nonprofits around the world. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
               </div>
