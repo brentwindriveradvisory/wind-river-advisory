@@ -99,7 +99,7 @@ export default function Home() {
               </div>
               <span className="case-solution-label">The solution we built</span>
               <p className="case-solution-name">Attendance tracking &amp; revenue dashboard</p>
-              <p className="case-solution-body">A custom tool that logs attendance by session, surfaces trends over time, and flags under-utilized capacity, giving the owner clear data to drive scheduling and pricing decisions.</p>
+              <p className="case-solution-body">A custom tool that logs attendance by session, tracks trends over time, and flags under-utilized capacity, giving the owner clear data to drive scheduling + pricing decisions.</p>
             </div>
 
             <div className="case-card">
