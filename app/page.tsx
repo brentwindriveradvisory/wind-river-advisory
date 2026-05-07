@@ -103,15 +103,15 @@ export default function Home() {
             </div>
 
             <div className="case-card">
-              <span className="case-tag">Education Services</span>
-              <h3>Attendance and payment reconciliation in one system</h3>
+              <span className="case-tag">Education Services · Language Academy</span>
+              <h3>A custom web app to run a full multi-subject academy from any phone</h3>
               <div className="case-problem">
                 <span className="case-problem-label">The problem</span>
-                <p>Attendance was tracked separately from payments, creating a reconciliation burden each billing cycle. Missed sessions slipped through, payments were hard to verify, and staff spent significant time on manual cross-checking.</p>
+                <p>Running an academy across eight subjects and dozens of classes meant tracking attendance, payments, and teacher hours entirely by hand. Payment reconciliation happened at the end of each month from scattered records, parent notifications required individual messages, and there was no way to see enrollment, revenue, or expenses in one place.</p>
               </div>
               <span className="case-solution-label">The solution we built</span>
-              <p className="case-solution-name">Integrated attendance + payment reconciliation tool</p>
-              <p className="case-solution-body">A unified system that connects attendance records directly to billing, auto-flags discrepancies, and generates a reconciliation report, eliminating the manual cross-check entirely.</p>
+              <p className="case-solution-name">Rise Academy Attendance & Payments — custom operations web app</p>
+              <p className="case-solution-body">A browser-based app that manages the full operation in one place: attendance with session lock and confirm, automated WhatsApp and email notifications for absences and cancellations, monthly payment tracking with running balances, bank statement import with auto-categorized expenses, and a one-click P&amp;L report. Enrollment stats and per-student attendance percentages update automatically. Monthly schedules self-generate based on each class&apos;s recurring pattern. Runs from any phone or computer — no download needed.</p>
             </div>
 
           </div>
