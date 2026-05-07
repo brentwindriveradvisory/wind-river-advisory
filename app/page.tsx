@@ -44,7 +44,7 @@ export default function Home() {
           </h1>
           <p className="hero-lead">
             Wind River Advisory helps small businesses and nonprofits simplify workflows, reduce administrative burden,
-            and automate repetitive tasks — using practical, custom-built AI tools designed for how you actually work.
+            and automate repetitive tasks, using practical, custom-built AI tools designed for how you actually work.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn-primary">Book a discovery call</a>
@@ -98,8 +98,8 @@ export default function Home() {
                 <p>Coaches were marking attendance manually with no connection to the booking system. Absence and reminder emails had to be written and sent one by one. There was no record of makeup sessions, no way to lock finalized attendance, and no single place to see the full schedule.</p>
               </div>
               <span className="case-solution-label">The solution we built</span>
-              <p className="case-solution-name">Yo! Attend — custom attendance + communications web app</p>
-              <p className="case-solution-body">A browser-based app (no download needed) that syncs confirmed bookings directly from the existing booking system, lets coaches tap to mark attendance, automates absence and reminder emails, tracks makeup sessions, and exports a full attendance backup with one click — accessible from any phone or computer, with all data saved in real time.</p>
+              <p className="case-solution-name">Yo! Attend, custom attendance + communications web app</p>
+              <p className="case-solution-body">A browser-based app (no download needed) that syncs confirmed bookings directly from the existing booking system, lets coaches tap to mark attendance, automates absence and reminder emails, tracks makeup sessions, and exports a full attendance backup with one click; accessible from any phone or computer, with all data saved in real time.</p>
             </div>
 
             <div className="case-card">
@@ -110,8 +110,8 @@ export default function Home() {
                 <p>Running an academy across eight subjects and dozens of classes meant tracking attendance, payments, and teacher hours entirely by hand. Payment reconciliation happened at the end of each month from scattered records, parent notifications required individual messages, and there was no way to see enrollment, revenue, or expenses in one place.</p>
               </div>
               <span className="case-solution-label">The solution we built</span>
-              <p className="case-solution-name">Rise Academy Attendance & Payments — custom operations web app</p>
-              <p className="case-solution-body">A browser-based app that manages the full operation in one place: attendance with session lock and confirm, automated WhatsApp and email notifications for absences and cancellations, monthly payment tracking with running balances, bank statement import with auto-categorized expenses, and a one-click P&amp;L report. Enrollment stats and per-student attendance percentages update automatically. Monthly schedules self-generate based on each class&apos;s recurring pattern. Runs from any phone or computer — no download needed.</p>
+              <p className="case-solution-name">Rise Academy Attendance & Payments, custom operations web app</p>
+              <p className="case-solution-body">A browser-based app that manages the full operation in one place: attendance with session lock and confirm, automated WhatsApp and email notifications for absences and cancellations, monthly payment tracking with running balances, bank statement import with auto-categorized expenses, and a one-click P&amp;L report. Enrollment stats and per-student attendance percentages update automatically. Monthly schedules self-generate based on each class&apos;s recurring pattern. Runs from any phone or computer, no download needed.</p>
             </div>
 
           </div>
@@ -125,8 +125,8 @@ export default function Home() {
             <div className="about-text">
               <p className="section-label">About</p>
               <h2 className="section-heading">Practical solutions, not just advice</h2>
-              <p>Most small businesses and nonprofits don&apos;t need expensive enterprise AI systems. The biggest gains usually come from redesigning a few core workflows using existing AI tools — or building something custom that fits exactly how your team works. Wind River Advisory bridges that gap, acting as a translator between what AI can actually do and how your organization operates.</p>
-              <p>We work hands-on with clients to map their workflows, identify the highest-impact opportunities, and build solutions that fit. We also help cut through the noise of AI hype. If you have questions about cost, data privacy, security, or vendor lock-in, those are exactly the right questions to ask — and we&apos;ll give you straight answers.</p>
+              <p>Most small businesses and nonprofits don&apos;t need expensive enterprise AI systems. The biggest gains usually come from redesigning a few core workflows using existing AI tools, or building something custom that fits exactly how your team works. Wind River Advisory bridges that gap, acting as a translator between what AI can actually do and how your organization operates.</p>
+              <p>We work hands-on with clients to map their workflows, identify the highest-impact opportunities, and build solutions that fit. We also help cut through the noise of AI hype. If you have questions about cost, data privacy, security, or vendor lock-in, those are exactly the right questions to ask, and we&apos;ll give you straight answers.</p>
               <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for four of the five leading AI labs and developing a firsthand understanding of what these tools can and can&apos;t do. He holds a Ph.D. in Economics and brings two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
               <div className="about-table">
                 <p className="about-table-heading">How we work</p>
@@ -155,7 +155,7 @@ export default function Home() {
               <p className="section-label">Get in touch</p>
               <h2 className="contact-heading">Let&apos;s start with a conversation</h2>
               <p>
-                Book a free 30-minute call — by phone, Zoom, or Google Meet, whatever works best for you.
+                Book a free 30-minute call, by phone, Zoom, or Google Meet, whatever works best for you.
                 The goal is simple: understand what you&apos;re working on, explore whether Wind River Advisory
                 is the right fit, and give you a clear sense of what working together would look like.
                 You don&apos;t need to have everything figured out before we talk.
@@ -170,7 +170,7 @@ export default function Home() {
               </div>
               <div className="contact-info-item">
                 <span className="contact-info-dot" />
-                <span>Lander, Wyoming — serving clients worldwide</span>
+                <span>Lander, Wyoming, serving clients worldwide</span>
               </div>
             </div>
             <ContactForm />
