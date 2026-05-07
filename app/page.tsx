@@ -92,14 +92,14 @@ export default function Home() {
 
             <div className="case-card">
               <span className="case-tag">Cardio Tennis · Instruction Business</span>
-              <h3>Attendance tracking to unlock revenue growth</h3>
+              <h3>A custom web app to run attendance, emails, and scheduling in one place</h3>
               <div className="case-problem">
                 <span className="case-problem-label">The problem</span>
-                <p>The business had no reliable way to track class attendance over time. Without that data, it was impossible to identify which sessions were under-attended, when to add capacity, or where revenue was being left on the table.</p>
+                <p>Coaches were marking attendance manually with no connection to the booking system. Absence and reminder emails had to be written and sent one by one. There was no record of makeup sessions, no way to lock finalized attendance, and no single place to see the full schedule.</p>
               </div>
               <span className="case-solution-label">The solution we built</span>
-              <p className="case-solution-name">Attendance tracking &amp; revenue dashboard</p>
-              <p className="case-solution-body">A custom tool that logs attendance by session, tracks trends over time, and flags under-utilized capacity, giving the owner clear data to drive scheduling + pricing decisions.</p>
+              <p className="case-solution-name">Yo! Attend — custom attendance + communications web app</p>
+              <p className="case-solution-body">A browser-based app (no download needed) that syncs confirmed bookings directly from the existing booking system, lets coaches tap to mark attendance, automates absence and reminder emails, tracks makeup sessions, and exports a full attendance backup with one click — accessible from any phone or computer, with all data saved in real time.</p>
             </div>
 
             <div className="case-card">
