@@ -43,8 +43,8 @@ export default function Home() {
             <em>built for your operation</em>
           </h1>
           <p className="hero-lead">
-            Wind River Advisory partners with small businesses and nonprofits to work smarter, move faster,
-            and produce higher-quality results using tailored technology and AI solutions.
+            Wind River Advisory helps small businesses and nonprofits simplify workflows, reduce administrative burden,
+            and automate repetitive tasks — using practical, custom-built AI tools designed for how you actually work.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn-primary">Book a discovery call</a>
@@ -125,9 +125,9 @@ export default function Home() {
             <div className="about-text">
               <p className="section-label">About</p>
               <h2 className="section-heading">Practical solutions, not just advice</h2>
-              <p>We work with small business and nonprofit leaders to identify where process improvements and tech-based solutions can drive the biggest gains in productivity, and where AI tools can simplify workflows and elevate the quality of what their teams produce.</p>
-              <p>Our approach is hands-on and collaborative. We start by understanding how your organization actually works, identify the highest-impact opportunities, and design solutions that fit.</p>
-              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for leading labs and developing a firsthand understanding of what these tools can and can&apos;t do. He brings that knowledge, along with two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific, to building practical, custom AI tools for small businesses and nonprofits around the world. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
+              <p>Most small businesses and nonprofits don&apos;t need expensive enterprise AI systems. The biggest gains usually come from redesigning a few core workflows using existing AI tools — or building something custom that fits exactly how your team works. Wind River Advisory bridges that gap, acting as a translator between what AI can actually do and how your organization operates.</p>
+              <p>We work hands-on with clients to map their workflows, identify the highest-impact opportunities, and build solutions that fit. We also help cut through the noise of AI hype. If you have questions about cost, data privacy, security, or vendor lock-in, those are exactly the right questions to ask — and we&apos;ll give you straight answers.</p>
+              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for four of the five leading AI labs and developing a firsthand understanding of what these tools can and can&apos;t do. He holds a Ph.D. in Economics and brings two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
               <div className="about-table">
                 <p className="about-table-heading">How we work</p>
                 {[
