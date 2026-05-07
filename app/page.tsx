@@ -67,8 +67,8 @@ export default function Home() {
             {[
               { n: '01', title: 'Workflow mapping', body: 'We talk to your team and map your processes to understand how work actually gets done and where inefficiency or quality gaps exist.' },
               { n: '02', title: 'Define the opportunity', body: 'We define where AI-based tools can make the biggest difference, simplifying workflows, reducing manual work, and elevating the quality of what your team produces.' },
-              { n: '03', title: 'Tailored solution design', body: 'We design a tech-based solution that fits seamlessly with how you operate.' },
-              { n: '04', title: 'Deployment & growth', body: 'We roll out your solution, train your team to own it, and stay engaged to refine what we\'ve built and identify the next opportunity as your business evolves.' },
+              { n: '03', title: 'Tailored solution design', body: 'We design a tech-based solution that fits seamlessly with how you operate. This could be either AI-based or a tool that requires no AI at all.' },
+              { n: '04', title: 'Deployment & growth', body: 'We roll out your solution and train your team to use it. And if you would like, we can stay engaged to identify the next opportunity as your business evolves.' },
             ].map((step) => (
               <div className="how-step" key={step.n}>
                 <div className="how-step-num">{step.n}</div>
