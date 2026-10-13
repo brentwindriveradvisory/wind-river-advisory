@@ -20,6 +20,7 @@ export default function ContactForm() {
           firstName: data.get('firstName'),
           lastName: data.get('lastName'),
           email: data.get('email'),
+          interest: data.get('interest'),
           message: data.get('message'),
         }),
       })
@@ -58,6 +59,17 @@ export default function ContactForm() {
       <div className="form-group">
         <label htmlFor="email">Email</label>
         <input id="email" name="email" type="email" placeholder="jane@yourbusiness.com" required />
+      </div>
+      <div className="form-group">
+        <label htmlFor="interest">What are you interested in? <span style={{ opacity: 0.5, fontWeight: 300, textTransform: 'none', letterSpacing: 0 }}>(optional)</span></label>
+        <select id="interest" name="interest" defaultValue="">
+          <option value="">Select one</option>
+          <option value="Workflow or reporting automation">Workflow or reporting automation</option>
+          <option value="Custom operations app">Custom operations app</option>
+          <option value="AI tools or agents">AI tools or agents</option>
+          <option value="Workshop or training">Workshop or training</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
       </div>
       <div className="form-group">
         <label htmlFor="message">What would you like to work on? <span style={{ opacity: 0.5, fontWeight: 300, textTransform: 'none', letterSpacing: 0 }}>(optional)</span></label>

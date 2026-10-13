@@ -1,31 +1,7 @@
 import Nav from '@/components/Nav'
 import ContactForm from '@/components/ContactForm'
-
-// ── Logo mark SVG (reusable) ───────────────────────────────────────────────
-
-function LogoMark({ width = 44, height = 24, opacity = 1 }: { width?: number; height?: number; opacity?: number }) {
-  return (
-    <svg width={width} height={height} viewBox="0 0 120 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <polyline
-        points="0,52 28,12 44,34 60,6 76,34 92,20 120,52"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        fill="none"
-        opacity={opacity}
-      />
-      <path
-        d="M0,60 Q30,55 60,60 Q90,65 120,60"
-        stroke="currentColor"
-        strokeWidth="1.4"
-        strokeLinecap="round"
-        fill="none"
-        opacity={0.35 * opacity}
-      />
-    </svg>
-  )
-}
+import Footer from '@/components/Footer'
+import { cases, CaseCard } from '@/components/cases'
 
 // ── Page ──────────────────────────────────────────────────────────────────
 
@@ -39,12 +15,12 @@ export default function Home() {
         <div className="hero-left">
           <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
           <h1>
-            Custom tools and AI solutions,{' '}
+            Workflow automation and custom tools,{' '}
             <em>built for your operation</em>
           </h1>
           <p className="hero-lead">
-            Wind River Advisory helps small businesses and nonprofits simplify workflows, reduce administrative burden,
-            and automate repetitive tasks, using practical, custom-built AI tools designed for how you actually work.
+            Wind River Advisory helps small businesses and nonprofits simplify workflows, automate reporting and finance
+            tasks, and reduce administrative burden, using practical, custom-built tools and AI designed for how you work.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn-primary">Book a discovery call</a>
@@ -60,13 +36,13 @@ export default function Home() {
           <h2 className="section-heading">From diagnosis to delivery</h2>
           <p className="section-sub">
             Whether the goal is identifying operational inefficiencies, integrating AI tools, or both,
-            we follow the same practical process: understand how your organization works, identify the
+            we follow the same process: understand how your organization works, identify the
             highest-impact opportunities, and build solutions that fit.
           </p>
           <div className="how-grid">
             {[
               { n: '01', title: 'Workflow mapping', body: 'We talk to your team and map your processes to understand how work actually gets done and where inefficiency or quality gaps exist.' },
-              { n: '02', title: 'Define the opportunity', body: 'We identify where the biggest gains are and what type of solution makes the most sense, whether that\'s an AI tool, a custom-built app, a workflow redesign, or some combination.' },
+              { n: '02', title: 'Define the opportunity', body: 'We identify where the biggest gains are and what type of solution makes the most sense, whether that\'s an AI tool, a custom-built app, a workflow automation, or some combination.' },
               { n: '03', title: 'Tailored solution design', body: 'We design a tech-based solution that fits seamlessly with how you operate. This could be either AI-based or a tool that requires no AI at all.' },
               { n: '04', title: 'Deployment & growth', body: 'We roll out your solution and train your team to use it. We stay engaged after launch to refine and improve based on real-world use, and to identify the next opportunity as your business evolves.' },
             ].map((step) => (
@@ -80,40 +56,65 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CASE STUDIES */}
-      <section className="cases-bg" id="work">
+      {/* WHAT WE BUILD */}
+      <section className="build-bg" id="build">
+        <div className="section-inner">
+          <p className="section-label">What we build</p>
+          <h2 className="section-heading">Practical tools for real operations</h2>
+          <p className="section-sub">
+            Most of our work falls into four areas. Many engagements combine more than one.
+          </p>
+          <div className="build-grid">
+            {[
+              { title: 'Workflow and reporting automation', body: 'Recurring work that runs on its own, from monthly sales tax and margin reports to marketplace profit, pulled from the systems you already use and delivered finished.' },
+              { title: 'Custom operations apps', body: 'Browser-based apps that replace scattered spreadsheets, manual tracking, and subscription software, built around how your team already works.' },
+              { title: 'AI tools and agents', body: 'AI built into the work your team already does, such as sorting inquiries, drafting first responses, and summarizing information, with a person reviewing what matters.' },
+              { title: 'Workshops and training', body: 'Practical, survey-driven sessions that help owners and staff understand what AI and workflow automations can do for their business and how to get started.' },
+            ].map((item) => (
+              <div className="build-card" key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CASE STUDIES (featured) */}
+      <section className="cases-bg cases-bg--light" id="work">
         <div className="section-inner">
           <p className="section-label">Our work</p>
           <h2 className="section-heading">Real problems. Custom solutions.</h2>
           <p className="section-sub">
-            Every engagement starts with a specific operational problem. Here&apos;s how we&apos;ve approached two current client situations.
+            Every engagement starts with a specific operational problem. Here are a few recent examples.
           </p>
-          <div className="cases-grid">
+          <div className="cases-grid cases-grid--three">
+            <CaseCard c={cases.optics} maxResults={2} />
+            <CaseCard c={cases.salesTax} />
+            <CaseCard c={cases.academy} />
+          </div>
+        </div>
+      </section>
 
-            <div className="case-card">
-              <span className="case-tag">Cardio Tennis · Instruction Business</span>
-              <h3>A custom web app to run attendance, emails, and scheduling in one place</h3>
-              <div className="case-problem">
-                <span className="case-problem-label">The problem</span>
-                <p>Coaches were marking attendance manually with no connection to the booking system. Absence and reminder emails had to be written and sent one by one. There was no record of makeup sessions, no way to lock finalized attendance, and no single place to see the full schedule.</p>
-              </div>
-              <span className="case-solution-label">The solution we built</span>
-              <p className="case-solution-name">Yo! Attend, custom attendance + communications web app</p>
-              <p className="case-solution-body">A browser-based app (no download needed) that syncs confirmed bookings directly from the existing booking system, lets coaches tap to mark attendance, automates absence and reminder emails, tracks makeup sessions, and exports a full attendance backup with one click; accessible from any phone or computer, with all data saved in real time.</p>
-            </div>
-
-            <div className="case-card">
-              <span className="case-tag">Education Services · Language Academy</span>
-              <h3>A custom web app to run a full multi-subject academy from any phone</h3>
-              <div className="case-problem">
-                <span className="case-problem-label">The problem</span>
-                <p>Running an academy across eight subjects and dozens of classes meant tracking attendance, payments, and teacher hours entirely by hand. Payment reconciliation happened at the end of each month from scattered records, parent notifications required individual messages, and there was no way to see enrollment, revenue, or expenses in one place.</p>
-              </div>
-              <span className="case-solution-label">The solution we built</span>
-              <p className="case-solution-name">Rise Academy Attendance & Payments, custom operations web app</p>
-              <p className="case-solution-body">A browser-based app that manages the full operation in one place: attendance with session lock and confirm, automated WhatsApp and email notifications for absences and cancellations, monthly payment tracking with running balances, bank statement import with auto-categorized expenses, and a one-click P&amp;L report. Enrollment stats and per-student attendance percentages update automatically. Monthly schedules self-generate based on each class&apos;s recurring pattern. Runs from any phone or computer, no download needed.</p>
-            </div>
-
+      {/* WORKSHOPS */}
+      <section className="workshop-bg" id="workshops">
+        <div className="section-inner workshop-inner">
+          <div>
+            <p className="section-label">Workshops</p>
+            <h2 className="section-heading">AI workshops for small business groups</h2>
+          </div>
+          <div className="workshop-body">
+            <p>
+              We recently partnered with a small-business support network at a community college to deliver a
+              practical AI for Small Business workshop. Before the session, we surveyed participants about their
+              businesses, current use of AI, and biggest obstacles, then built the content around what they
+              actually wanted to learn.
+            </p>
+            <p>
+              If you lead a chamber of commerce, business association, or nonprofit network, we can build a
+              session around your members.
+            </p>
+            <a href="#contact" className="btn-primary">Ask about a workshop</a>
           </div>
         </div>
       </section>
@@ -127,7 +128,8 @@ export default function Home() {
               <h2 className="section-heading">Practical solutions, not just advice</h2>
               <p>Most small businesses and nonprofits don&apos;t need expensive enterprise AI systems. The biggest gains usually come from redesigning a few core workflows using existing AI tools, or building something custom that fits exactly how your team works. Wind River Advisory bridges that gap, acting as a translator between what AI can actually do and how your organization operates.</p>
               <p>We work hands-on with clients to map their workflows, identify the highest-impact opportunities, and build solutions that fit. We also help cut through the noise of AI hype. If you have questions about cost, data privacy, security, or vendor lock-in, those are exactly the right questions to ask, and we&apos;ll give you straight answers.</p>
-              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for three of the five leading AI labs and developing a firsthand understanding of what these tools can and can&apos;t do. He holds a Ph.D. in Economics and brings two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
+              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for three of the five leading AI labs and developing a firsthand understanding of what these tools can and can&apos;t do. He also helps AI developers find out whether their tools can handle real work, pairing them with experienced practitioners who review test cases for realism and spot missing context: the details a professional would know but an AI would not. That work answers the same question every organization faces when deciding how to put AI to work: where is it ready to help, and where does it still need human judgment?</p>
+              <p>Brent holds a Ph.D. in Economics and brings two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
               <div className="about-table">
                 <p className="about-table-heading">How we work</p>
                 {[
@@ -178,31 +180,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer>
-        <div className="footer-left">
-          <svg width="32" height="18" viewBox="0 0 120 64" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ color: 'rgba(232,245,242,0.5)' }}>
-            <polyline
-              points="0,52 28,12 44,34 60,6 76,34 92,20 120,52"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              fill="none"
-            />
-            <path
-              d="M0,60 Q30,55 60,60 Q90,65 120,60"
-              stroke="currentColor"
-              strokeWidth="1.4"
-              strokeLinecap="round"
-              fill="none"
-              opacity="0.35"
-            />
-          </svg>
-          <span className="footer-name">Wind River Advisory</span>
-        </div>
-        <p className="footer-copy">© 2026 Wind River Advisory LLC · Lander, Wyoming</p>
-      </footer>
+      <Footer />
     </>
   )
 }

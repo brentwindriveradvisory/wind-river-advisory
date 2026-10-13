@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Wind River Advisory | Custom AI Tools for Small Businesses',
-  description: 'Wind River Advisory builds custom AI tools and process automation for small businesses and nonprofits. Based in Lander, Wyoming, serving clients worldwide. Free 30-min discovery call.',
-  keywords: ['AI tools for small business', 'custom AI solutions', 'process automation', 'workflow improvement', 'small business consulting', 'nonprofit technology', 'Lander Wyoming'],
+  title: 'Wind River Advisory | Workflow Automation and Custom AI Tools for Small Businesses',
+  description: 'Wind River Advisory builds workflow automation, custom AI tools, and operations apps for small businesses and nonprofits, and runs practical AI workshops. Based in Lander, Wyoming, serving clients worldwide. Free 30-min discovery call.',
+  keywords: ['workflow automation', 'AI tools for small business', 'custom AI solutions', 'process automation', 'reporting automation', 'sales tax automation', 'finance automation', 'AI workshops', 'workflow improvement', 'small business consulting', 'nonprofit technology', 'Lander Wyoming'],
   icons: {
     icon: '/mark-only-green.svg',
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
-    title: 'Wind River Advisory | Custom AI Tools for Small Businesses',
-    description: 'Custom AI tools and process automation built for your operation. Wind River Advisory partners with small businesses and nonprofits worldwide.',
+    title: 'Wind River Advisory | Workflow Automation and Custom AI Tools for Small Businesses',
+    description: 'Workflow automation, custom AI tools, and operations apps built for your operation, plus practical AI workshops. Wind River Advisory partners with small businesses and nonprofits worldwide.',
     url: 'https://windriveradvisory.com',
     siteName: 'Wind River Advisory',
     locale: 'en_US',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Wind River Advisory | Custom AI Tools for Small Businesses',
-    description: 'Custom AI tools and process automation built for your operation.',
+    title: 'Wind River Advisory | Workflow Automation and Custom AI Tools for Small Businesses',
+    description: 'Workflow automation, custom AI tools, and operations apps built for your operation.',
   },
   alternates: {
     canonical: 'https://windriveradvisory.com',
@@ -36,7 +36,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     name: 'Wind River Advisory',
-    description: 'Custom AI tools and process automation for small businesses and nonprofits.',
+    description: 'Workflow automation, custom AI tools, operations apps, and AI workshops for small businesses and nonprofits.',
     url: 'https://windriveradvisory.com',
     telephone: '+13074389112',
     email: 'brent@windriveradvisory.com',
@@ -51,7 +51,7 @@ export default function RootLayout({
       '@type': 'Person',
       name: 'Brent Edelman',
     },
-    serviceType: ['AI Consulting', 'Process Automation', 'Custom Software Development', 'Workflow Optimization'],
+    serviceType: ['Workflow Automation', 'AI Consulting', 'Process Automation', 'Reporting Automation', 'Custom Software Development', 'Workflow Optimization', 'AI Training Workshops'],
   }
 
   return (

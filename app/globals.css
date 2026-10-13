@@ -527,6 +527,7 @@ section {
 }
 
 .form-group input,
+.form-group select,
 .form-group textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.07);
@@ -547,6 +548,7 @@ section {
 }
 
 .form-group input:focus,
+.form-group select:focus,
 .form-group textarea:focus {
   border-color: rgba(122, 173, 160, 0.6);
 }
@@ -697,6 +699,166 @@ footer {
   text-align: center;
   padding: 0.875rem !important;
   border-radius: 3px;
+}
+
+/* ── WHAT WE BUILD ── */
+.build-bg {
+  background: var(--warm);
+}
+
+.build-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.build-card {
+  background: var(--white);
+  border-top: 2px solid var(--teal);
+  padding: 36px 32px;
+}
+
+.build-card h3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.build-card p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--ink-mid);
+  line-height: 1.7;
+}
+
+/* ── CASE STUDY ADDITIONS ── */
+.cases-bg--light {
+  background: var(--white);
+}
+
+.cases-bg--light .case-card {
+  background: var(--warm);
+}
+
+.cases-grid--three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cases-grid--three .case-card {
+  padding: 40px 36px;
+}
+
+.case-results {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--sage-light);
+}
+
+.case-results ul {
+  list-style: none;
+}
+
+.case-results li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.6;
+  margin-bottom: 0.4rem;
+}
+
+.case-results li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+}
+
+/* ── WORKSHOPS ── */
+.workshop-bg {
+  background: var(--warm);
+}
+
+.workshop-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.workshop-body p {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--ink-mid);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.workshop-body .btn-primary {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+/* ── WORK PAGE ── */
+.page-intro {
+  background: var(--white);
+  padding: 96px 48px 24px;
+}
+
+.page-heading {
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.work-cta-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(232, 245, 242, 0.7);
+  margin-bottom: 1.75rem;
+}
+
+.form-group select option {
+  color: var(--ink);
+}
+
+@media (max-width: 1100px) {
+  .build-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cases-grid--three {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .build-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-inner {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .page-intro {
+    padding: 3rem 1.25rem 0;
+  }
+
+  .cases-grid--three .case-card {
+    padding: 2rem;
+  }
 }
 
 /* ── RESPONSIVE ── */

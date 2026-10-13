@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(req: NextRequest) {
   const body = await req.json()
-  const { firstName, lastName, email, businessType, message } = body
+  const { firstName, lastName, email, interest, message } = body
 
   await resend.emails.send({
     from: 'hello@windriveradvisory.com',
@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     text: `
 Name: ${firstName} ${lastName}
 Email: ${email}
-Business type: ${businessType}
+Interested in: ${interest || 'Not specified'}
 Message: ${message}
     `.trim(),
   })
