@@ -22,6 +22,10 @@ export default function Footer() {
         </svg>
         <span className="footer-name">Wind River Advisory</span>
       </div>
+      <nav className="footer-links" aria-label="Footer">
+        <a href="/amazon-reporting">Amazon Reporting</a>
+        <a href="/privacy">Privacy Policy</a>
+      </nav>
       <p className="footer-copy">© 2026 Wind River Advisory LLC · Lander, Wyoming</p>
     </footer>
   )

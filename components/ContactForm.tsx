@@ -65,6 +65,7 @@ export default function ContactForm() {
         <select id="interest" name="interest" defaultValue="">
           <option value="">Select one</option>
           <option value="Workflow or reporting automation">Workflow or reporting automation</option>
+          <option value="Amazon seller reporting">Amazon seller reporting</option>
           <option value="Custom operations app">Custom operations app</option>
           <option value="AI tools or agents">AI tools or agents</option>
           <option value="Workshop or training">Workshop or training</option>
