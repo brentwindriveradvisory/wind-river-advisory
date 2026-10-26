@@ -31,8 +31,8 @@ export default function PrivacyPage() {
               Wind River Advisory LLC (&quot;Wind River Advisory,&quot; &quot;we,&quot; &quot;us&quot;) builds
               workflow and reporting automations for small businesses. This policy explains what information we
               collect, how we use it, where it is stored, how it is protected, who it is shared with, and how it is
-              deleted. It covers this website and the services we provide to clients, including Wind River Amazon
-              Reporting.
+              deleted. It covers this website and the services we provide to clients, including Wind River Reporting
+              for Amazon Sellers.
             </p>
 
             <h2>Information we collect</h2>
@@ -45,7 +45,7 @@ export default function PrivacyPage() {
               build their reports, such as sales, cost and payout data from systems the client authorizes.
             </p>
             <p>
-              <strong>Amazon seller data.</strong> When a seller authorizes Wind River Amazon Reporting, we access
+              <strong>Amazon seller data.</strong> When a seller authorizes Wind River Reporting for Amazon Sellers, we access
               that seller&apos;s financial data through Amazon&apos;s Selling Partner API on a read-only basis:
               financial transactions, fees, settlements and payout balances. We do not request or store Amazon
               buyers&apos; personally identifiable information, such as names, addresses, email addresses or phone

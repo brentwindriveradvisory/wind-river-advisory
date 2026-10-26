@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
-const APP_NAME = 'Wind River Amazon Reporting'
+const APP_NAME = 'Wind River Reporting for Amazon Sellers'
 
 export const metadata: Metadata = {
   title: `${APP_NAME} | Wind River Advisory`,

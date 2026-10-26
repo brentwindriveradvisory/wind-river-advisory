@@ -23,7 +23,7 @@ export default function Footer() {
         <span className="footer-name">Wind River Advisory</span>
       </div>
       <nav className="footer-links" aria-label="Footer">
-        <a href="/amazon-reporting">Amazon Reporting</a>
+        <a href="/amazon-reporting">Reporting for Amazon Sellers</a>
         <a href="/privacy">Privacy Policy</a>
       </nav>
       <p className="footer-copy">© 2026 Wind River Advisory LLC · Lander, Wyoming</p>
