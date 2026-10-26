@@ -66,14 +66,17 @@ export default function Home() {
           </p>
           <div className="build-grid">
             {[
-              { title: 'Workflow and reporting automation', body: 'Recurring work that runs on its own, from monthly sales tax and margin reports to marketplace profit, pulled from the systems you already use and delivered finished.' },
+              { title: 'Workflow and reporting automation', body: 'Recurring work that runs on its own, from monthly sales tax and margin reports to marketplace profit, pulled from the systems you already use and delivered finished.', link: { href: '/amazon-reporting', label: 'Amazon seller reporting' } },
               { title: 'Custom operations apps', body: 'Browser-based apps that replace scattered spreadsheets, manual tracking, and subscription software, built around how your team already works.' },
               { title: 'AI tools and agents', body: 'AI built into the work your team already does, such as sorting inquiries, drafting first responses, and summarizing information, with a person reviewing what matters.' },
               { title: 'Workshops and training', body: 'Practical, survey-driven sessions that help owners and staff understand what AI and workflow automations can do for their business and how to get started.' },
-            ].map((item) => (
+            ].map((item: { title: string; body: string; link?: { href: string; label: string } }) => (
               <div className="build-card" key={item.title}>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
+                {item.link && (
+                  <a href={item.link.href} className="build-card-link">{item.link.label} →</a>
+                )}
               </div>
             ))}
           </div>
