@@ -105,7 +105,7 @@ export default function AmazonReportingPage() {
             seller account with read-only access and turns your Amazon financial data into finished reports, so
             your team stops downloading and stitching together exports by hand.
           </p>
-          <a href="/#contact" className="btn-primary">Request a quote</a>
+          <a href="/#contact" className="btn-primary">Book a discovery call</a>
         </div>
       </div>
 
@@ -193,7 +193,7 @@ export default function AmazonReportingPage() {
           <p className="work-cta-text">
             Email brent@windriveradvisory.com or call +1 (307) 438-9112.
           </p>
-          <a href="/#contact" className="btn-primary">Start a conversation</a>
+          <a href="/#contact" className="btn-primary">Book a discovery call</a>
           <p className="trademark-note">
             Amazon is a trademark of Amazon.com, Inc. or its affiliates. Wind River Advisory is an independent
             company and is not affiliated with or endorsed by Amazon.

@@ -13,7 +13,7 @@ export default function Home() {
       {/* HERO */}
       <div className="hero-outer">
         <div className="hero-left">
-          <p className="hero-eyebrow">Process Improvement &amp; AI Advisory</p>
+          <p className="hero-eyebrow">For small businesses &amp; nonprofits</p>
           <h1>
             Workflow automation and custom tools,{' '}
             <em>built for your operation</em>
@@ -66,7 +66,7 @@ export default function Home() {
           </p>
           <div className="build-grid">
             {[
-              { title: 'Workflow and reporting automation', body: 'Recurring work that runs on its own, from monthly sales tax and margin reports to marketplace profit, pulled from the systems you already use and delivered finished.', link: { href: '/amazon-reporting', label: 'Amazon seller reporting' } },
+              { title: 'Workflow and reporting automation', body: 'Recurring work that runs on its own, from monthly sales tax and margin reports to marketplace profit and daily order checks, pulled from the systems you already use and delivered finished.', link: { href: '/amazon-reporting', label: 'Amazon seller reporting' } },
               { title: 'Custom operations apps', body: 'Browser-based apps that replace scattered spreadsheets, manual tracking, and subscription software, built around how your team already works.' },
               { title: 'AI tools and agents', body: 'AI built into the work your team already does, such as sorting inquiries, drafting first responses, and summarizing information, with a person reviewing what matters.' },
               { title: 'Workshops and training', body: 'Practical, survey-driven sessions that help owners and staff understand what AI and workflow automations can do for their business and how to get started.' },
@@ -92,9 +92,9 @@ export default function Home() {
             Every engagement starts with a specific operational problem. Here are a few recent examples.
           </p>
           <div className="cases-grid cases-grid--three">
-            <CaseCard c={cases.optics} maxResults={2} />
-            <CaseCard c={cases.salesTax} />
-            <CaseCard c={cases.academy} />
+            <CaseCard c={cases.outdoorDtc} maxResults={2} compact />
+            <CaseCard c={cases.orderAudit} maxResults={2} compact />
+            <CaseCard c={cases.academy} compact />
           </div>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function Home() {
               <h2 className="section-heading">Practical solutions, not just advice</h2>
               <p>Most small businesses and nonprofits don&apos;t need expensive enterprise AI systems. The biggest gains usually come from redesigning a few core workflows using existing AI tools, or building something custom that fits exactly how your team works. Wind River Advisory bridges that gap, acting as a translator between what AI can actually do and how your organization operates.</p>
               <p>We work hands-on with clients to map their workflows, identify the highest-impact opportunities, and build solutions that fit. We also help cut through the noise of AI hype. If you have questions about cost, data privacy, security, or vendor lock-in, those are exactly the right questions to ask, and we&apos;ll give you straight answers.</p>
-              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for three of the five leading AI labs and developing a firsthand understanding of what these tools can and can&apos;t do. He also helps AI developers find out whether their tools can handle real work, pairing them with experienced practitioners who review test cases for realism and spot missing context: the details a professional would know but an AI would not. That work answers the same question every organization faces when deciding how to put AI to work: where is it ready to help, and where does it still need human judgment?</p>
+              <p>Founder Brent Edelman has been on the inside of the AI industry since 2025, training frontier models for four of the five leading AI labs and developing a firsthand understanding of what these tools can and can&apos;t do. He also helps AI developers find out whether their tools can handle real work, pairing them with experienced practitioners who review test cases for realism and spot missing context: the details a professional would know but an AI would not. That work answers the same question every organization faces when deciding how to put AI to work: where is it ready to help, and where does it still need human judgment?</p>
               <p>Brent holds a Ph.D. in Economics and brings two decades of experience designing projects that helped small businesses and institutions thrive across Asia, Africa, and the Pacific. His goal is simple: give small teams access to tools that were previously out of reach, and give them time back to focus on what they do best.</p>
               <div className="about-table">
                 <p className="about-table-heading">How we work</p>

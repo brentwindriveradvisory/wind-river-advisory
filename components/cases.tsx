@@ -13,34 +13,35 @@ export type CaseStudy = {
 }
 
 export const cases: Record<string, CaseStudy> = {
-  optics: {
-    id: 'optics',
-    tag: 'Outdoor Optics · Consumer Products',
-    title: 'Automated profit and margin reporting across every sales channel',
+  outdoorDtc: {
+    id: 'outdoor-dtc',
+    tag: 'Outdoor DTC · Consumer Products',
+    title: 'Automated margin, marketplace and sales tax reporting across every sales channel',
     problem:
-      'Knowing what each product actually earned meant hours of spreadsheet wrangling every month: pulling sales and cost data from the inventory system, matching orders to sales channels, and separately piecing together Amazon exports from the US and Canada with fees, currency conversion, and product costs.',
-    solutionName: 'Automated margin and marketplace profit reports',
+      'Knowing what each product actually earned, and closing the books each month, meant hours of spreadsheet wrangling: pulling sales and cost data from the inventory system, matching orders to sales channels, piecing together Amazon exports from the US and Canada, and building sales tax and payout reports from manual Shopify exports.',
+    solutionName: 'Automated margin, Amazon profit and Shopify reports',
     solution:
-      'Two connected automations. The first pulls sales and cost data from the inventory system, matches each order to its sales channel, and delivers a finished monthly margin report by product line, category, and customer segment, with no manual work. The second turns raw Amazon sales exports from the US and Canada into a finished profit report, combining sales, Amazon fees, currency conversion, and product costs.',
+      'A set of connected automations. One pulls sales and cost data from the inventory system, matches each order to its sales channel, and delivers a finished monthly margin report by product line, category, and customer segment. Another turns raw Amazon exports from the US and Canada into a profit report by SKU, combining sales, Amazon fees, currency conversion, and product costs. Others pull Shopify orders and payouts to build sales tax by state and county, reconcile payout balances, and email finished reports to the team.',
     results: [
       'The monthly margin report runs on its own in about two minutes, replacing hours of spreadsheet work',
       'Ties to the penny with their accounting system',
       'The Amazon profit report for the US and Canada is produced in minutes instead of hours',
+      'Caught errors in the old by-hand sales tax report, including orders that had been left out entirely',
       'The team sees what each product earns after fees and costs, and uses it to decide where advertising dollars will do the most good',
     ],
   },
-  salesTax: {
-    id: 'sales-tax',
-    tag: 'Online Retail · E-commerce',
-    title: 'Monthly sales tax reporting that builds and delivers itself',
+  orderAudit: {
+    id: 'order-audit',
+    tag: 'Outdoor DTC · Order Operations',
+    title: 'A daily order audit that catches what slips through the cracks',
     problem:
-      'Preparing to file sales tax meant an afternoon of manual exports from Shopify and copy-and-paste into spreadsheets every month, and the by-hand report was prone to errors.',
-    solutionName: 'Automated sales tax report',
+      'Staff spent time every day comparing orders between Shopify and the shipping platform, ShippingEasy, to catch orders that had slipped through the cracks.',
+    solutionName: 'Automated daily order audit',
     solution:
-      'Every month, the automation pulls Shopify payouts and orders, builds a shareable spreadsheet with sales tax broken down by state and by county, and emails it to the team. No manual exports or copy-and-paste.',
+      'Each morning, the automation checks both systems and emails the team a short list of orders that need attention: orders missing from the shipping queue, shipments that never synced back to Shopify, and missing tracking or items. Staff can turn checks on and off and add exceptions from a simple Google Sheet, without touching the automation. It is tuned to ignore false alarms like in-person sales, payment-only orders, and package protection add-ons.',
     results: [
-      'Filing sales tax went from an afternoon of spreadsheet work to checking a finished report',
-      'Caught errors in the old by-hand report, including orders that had been left out entirely',
+      'A daily manual comparison replaced by a short morning email',
+      'The list holds only orders worth a look, so nothing important gets buried in false alarms',
     ],
   },
   academy: {
@@ -77,19 +78,23 @@ export const cases: Record<string, CaseStudy> = {
   },
 }
 
-export function CaseCard({ c, maxResults }: { c: CaseStudy; maxResults?: number }) {
+export function CaseCard({ c, maxResults, compact }: { c: CaseStudy; maxResults?: number; compact?: boolean }) {
   const results = c.results ? c.results.slice(0, maxResults ?? c.results.length) : []
   return (
-    <div className="case-card" id={c.id}>
+    <div className={`case-card${compact ? ' case-card--compact' : ''}`} id={c.id}>
       <span className="case-tag">{c.tag}</span>
       <h3>{c.title}</h3>
       <div className="case-problem">
         <span className="case-problem-label">{c.problemLabel ?? 'The problem'}</span>
         <p>{c.problem}</p>
       </div>
-      <span className="case-solution-label">{c.solutionLabel ?? 'The solution we built'}</span>
-      <p className="case-solution-name">{c.solutionName}</p>
-      <p className="case-solution-body">{c.solution}</p>
+      {!compact && (
+        <>
+          <span className="case-solution-label">{c.solutionLabel ?? 'The solution we built'}</span>
+          <p className="case-solution-name">{c.solutionName}</p>
+          <p className="case-solution-body">{c.solution}</p>
+        </>
+      )}
       {results.length > 0 && (
         <div className="case-results">
           <span className="case-solution-label">The result</span>
@@ -99,6 +104,9 @@ export function CaseCard({ c, maxResults }: { c: CaseStudy; maxResults?: number 
             ))}
           </ul>
         </div>
+      )}
+      {compact && (
+        <a href={`/work#${c.id}`} className="case-card-link">Read the full case →</a>
       )}
     </div>
   )

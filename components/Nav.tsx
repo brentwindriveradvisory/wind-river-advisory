@@ -35,10 +35,11 @@ export default function Nav() {
         <ul className="nav-links">
           <li><a href="/#how">How it works</a></li>
           <li><a href="/work">Work</a></li>
+          <li><a href="/amazon-reporting">Amazon reporting</a></li>
           <li><a href="/#about">About</a></li>
         </ul>
 
-        <a href="/#contact" className="nav-cta nav-cta-desktop">Start a conversation</a>
+        <a href="/#contact" className="nav-cta nav-cta-desktop">Book a discovery call</a>
 
         <button
           className={`nav-hamburger${open ? ' nav-hamburger--open' : ''}`}
@@ -56,8 +57,9 @@ export default function Nav() {
         <div className="mobile-menu">
           <a href="/#how" onClick={() => setOpen(false)}>How it works</a>
           <a href="/work" onClick={() => setOpen(false)}>Work</a>
+          <a href="/amazon-reporting" onClick={() => setOpen(false)}>Amazon reporting</a>
           <a href="/#about" onClick={() => setOpen(false)}>About</a>
-          <a href="/#contact" className="mobile-menu-cta" onClick={() => setOpen(false)}>Start a conversation</a>
+          <a href="/#contact" className="mobile-menu-cta" onClick={() => setOpen(false)}>Book a discovery call</a>
         </div>
       )}
     </>

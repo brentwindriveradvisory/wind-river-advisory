@@ -16,7 +16,7 @@ const groups: { label: string; heading: string; items: CaseStudy[] }[] = [
   {
     label: 'Workflow and reporting automation',
     heading: 'Reports that build themselves',
-    items: [cases.optics, cases.salesTax],
+    items: [cases.outdoorDtc, cases.orderAudit],
   },
   {
     label: 'Custom operations apps',
@@ -67,7 +67,7 @@ export default function WorkPage() {
           <p className="work-cta-text">
             Book a free 30-minute call to talk through what you&apos;re working on.
           </p>
-          <a href="/#contact" className="btn-primary">Start a conversation</a>
+          <a href="/#contact" className="btn-primary">Book a discovery call</a>
         </div>
       </section>
 
